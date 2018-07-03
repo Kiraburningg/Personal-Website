@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+English+SC|Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+@import url('https://fonts.googleapis.com/css?family=Varela+Round');
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+
+body{
+    font-family: 'Playfair Display', serif;
+    height: 100%;
+}
+
+nav{
+    background-color: transparent;
+}
+
+/* Parallax css */
+
+.parallax {
+    /* The image used */
+    background-image: url('../img/background.png');
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.backgroundServices{
+    background-image: url('../img/background2.png');
+    height: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url('../img/background3.png');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.backgroundFooter{
+    background-color: #e6e6e6;
+}
+
+/* About image hover */
+
+#cf {
+    position:relative;
+    height:281px;
+    width:100%;
+    margin:0 auto;
+    margin-left: 50px;
+  }
+  
+  #cf img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  #cf img.top:hover {
+    opacity:0;
+  }
+
+/* Vertical text css */
+
+.vertical-text-about{
+    font-family: 'Kanit';
+    transform: rotate(90deg);
+    transform-origin: -100px 100px 0;
+    font-size: 16px;
+    letter-spacing: 10px;
+}
+
+.vertical-text-services{
+    font-family: 'Kanit';
+    transform: rotate(90deg);
+    transform-origin: -100px 70px 0;
+    font-size: 16px;
+    letter-spacing: 10px;
+}
+
+/* sections fonts */
+
+.services-font{
+    font-family: 'Kanit', sans-serif;
+    font-size: 1rem;
+    color: #151515;
+    word-spacing: 0.1px;
+}
+
+.list-font{
+    font-family: 'Kanit', sans-serif;
+}
+
+li{
+    margin-bottom: 10px;
+}
+
+p{
+    font-family:'Varela Round';
+    font-size: 1rem;
+    word-spacing: 0.5rem;
+}
+
+/* Section Divider */
+
+.about-section{
+    font-family: 'Playfair Display';
+    margin-bottom: 19em;
+}
+
+.service-section{
+    font-family: 'Playfair Display';
+    margin-bottom: 16em;
+    padding-top: 6.5em;
+}
+
+.works-section{
+    font-family: 'Playfair Display';
+    margin-bottom: 19em;
+}
+
+.blog-section{
+    font-family: 'Playfair Display';
+}
+
+#social {
+  margin: 20px 10px;
+  text-align: center;
+}
+
+/* social media icons */
+
+.smGlobalBtn { /* global button class */
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border:2px solid #ddd; /* add border to the buttons */
+    box-shadow: 0 3px 3px #999;
+    padding: 0px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 2em;
+    border-radius: 27px;
+    -moz-border-radius:27px;
+    -webkit-border-radius:27px;
+}
+
+/* facebook button class*/
+.facebookBtn{
+    background: #4060A5;
+}
+
+.facebookBtn:before{ /* use :before to add the relevant icons */
+    font-family: "FontAwesome";
+    content: "\f09a"; /* add facebook icon */
+}
+
+.facebookBtn:hover{
+    color: #4060A5;
+    background: #fff;
+    border-color: #4060A5; /* change the border color on mouse hover */
+}
+
+/* twitter button class*/
+.twitterBtn{
+    background: #00ABE3;
+}
+
+.twitterBtn:before{
+      font-family: "FontAwesome";
+      content: "\f099"; /* add twitter icon */
+      
+}
+
+.twitterBtn:hover{
+      color: #00ABE3;
+      background: #fff;
+      border-color: #00ABE3;
+}
+
+/* google plus button class*/
+.googleplusBtn{
+    background: #e64522;
+}
+
+.googleplusBtn:before{
+      font-family: "FontAwesome";
+      content: "\f0d5"; /* add googleplus icon */
+}
+
+.googleplusBtn:hover{
+      color: #e64522;
+      background: #fff;
+      border-color: #e64522;
+}
+
+/* skils progress bar */
+
+#graphic {
+    margin: 20px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+  }
+
+/* Carousel css */
+
+.carousel {
+    margin-bottom: 4rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+    background-color: white;
+  }
+
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+
+
+
+.copyright{
+    margin-top:8rem;
+    margin-bottom: 0;
+    padding-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 768px){
+    .about-intro-1{
+        font-size: 30px;
+        margin-top: 80px;
+        color: black;
+    }
+    .about-intro-2{
+        font-size: 25px;
+        color: black;
+    }
+    .services-image{
+        display: none;
+    }
+    .blog{
+        padding-top: 6rem;
+    }
+    .conform{
+        padding-top: 6rem;
+    }
+    .vertical-text-about{
+        transform-origin: -100px 130px 0;
+    }
+    #cf{
+        margin-left: 0;
+    }
+    nav{
+         background-color:#cccccc;
+         opacity: 0.8;
+    }
+    .service-section{
+        padding-top: 1em;
+    }
+    .about-section{
+        margin-bottom: 3em;
+    }
+    .service-section{
+        font-family: 'Playfair Display';
+        margin-bottom: 3em;
+    }
+    .works-section{
+        font-family: 'Playfair Display';
+        margin-bottom: 3em;
+    }
+    .blog-section{
+        font-family: 'Playfair Display';
+    }
+    .parallax{
+        background-image: none;
+    }
+    .parallax2{
+        background-image: url(../img/background3-small.png);
+    }
+
+}
